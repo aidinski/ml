@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1c5df199-7499-4dbb-839f-0e4826db03b8</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>home price per room.py</StartupFile>
+    <StartupFile>handWritingRecognition.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +24,12 @@
   <ItemGroup>
     <Compile Include="CourseraTensorFlowProject.py" />
     <Compile Include="home price per room.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="loadTrainingData.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="handWritingRecognition.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
