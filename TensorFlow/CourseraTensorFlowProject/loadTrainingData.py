@@ -16,7 +16,7 @@ callbacks = myCallback()
 (training_images, training_labels), (test_images, test_labels) = mnist.load_data()
 #You'll notice that all of the values in the number are between 0 and 255. If we are training a neural network, for various reasons it's easier if we treat all values as between 0 and 1, 
 #a process called 'normalizing'...and fortunately in Python it's easy to normalize a list like this without looping. You do it like this:
-x_train, x_test = x_train / 255.0, x_test / 255.0
+training_images, test_images = (training_images / 255.0), (test_images / 255.0)
 
 #to plot the data deriven from pictures uncomment the next 4 lines
 #import matplotlib.pyplot as plt

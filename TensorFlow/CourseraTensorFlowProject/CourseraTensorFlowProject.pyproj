@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1c5df199-7499-4dbb-839f-0e4826db03b8</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>handWritingRecognition.py</StartupFile>
+    <StartupFile>loadTrainingData.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
