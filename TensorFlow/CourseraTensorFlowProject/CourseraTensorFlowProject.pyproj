@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1c5df199-7499-4dbb-839f-0e4826db03b8</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>loadTrainingData.py</StartupFile>
+    <StartupFile>horseOrHumanWithValidation.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -30,6 +30,15 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="handWritingRecognition.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="humanOrHourse.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="horseOrHumanWithValidation.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="visualizationIntermediateRepresentations.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
